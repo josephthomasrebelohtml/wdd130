@@ -1,0 +1,78 @@
+/*This is a universal selector*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    /*Gives Fonts to the whole text*/
+    font-family: Arial, sans-serif;
+
+    /*Gives more space for the text*/
+    line-height: 1.6;
+}
+
+header, footer{
+    background-color: #333 ;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    font-size: 1.5rem;
+
+}
+
+main {
+    width: 400px;
+
+    /* The 0 and auto are to center the main element*/
+    margin: 0 auto;
+
+}
+
+h1 {
+    margin:10px;
+    text-align: center;
+
+}
+
+h2{
+    /*Adds a border to between the h2 and p elements */
+    border-bottom: 1px solid #222;
+}
+
+img {
+    /*Fills the 100% of the parent element, which is picture in this*/
+    width: 100%;
+
+    /*Makes the height automatically scale to width*/
+    height: auto;
+    
+
+    box-shadow: 0 0 30px #333;
+
+}
+
+section{
+    margin: 20px;
+    border: 1px solid rgb(0 0 0 / 10%);
+
+    /*Helps the text to not be hugging the border*/
+    padding: 10px;
+    background-color: #ddd;
+    font-size: 0.9rem;
+
+}
+
+section p{
+    margin:10px;
+
+}
+
+ul {
+    margin: 10px 20px 0;
+}
+
+footer{
+    font-size: 0.9rem;
+
+}
