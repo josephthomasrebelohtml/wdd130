@@ -2,8 +2,6 @@
 
     --primary-color: darkgreen;
 
-    --secondary-color: #AFEEEE;
-
     --accent-color1: black;
 
     --accent-color2: #FF8C00;
@@ -40,7 +38,6 @@ nav,
 p,
 section,
 article {
-
     margin: 16px;
     padding: 8px;
 }
@@ -70,7 +67,7 @@ h1 {
     color: white;
 }
 
-article {
+.hero article {
     position: absolute;
     top: 250px;
     bottom: 20px;
