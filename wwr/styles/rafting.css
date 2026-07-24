@@ -148,14 +148,15 @@ h2 {
 }
 
 figure img {
-    width: 201px;
-    height: 134px;
+    width: 168px;
+    height: 112px;
     padding: 10px;
 
 }
 
 figcaption {
     text-align: center;
+    font-size: 0.85rem;
 }
 
 footer {
@@ -164,6 +165,7 @@ footer {
     align-items: center;
     place-items: center;
     background-color: var(--background-color);
+    font-weight: bold;
 }
 
 footer img {
