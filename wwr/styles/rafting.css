@@ -2,7 +2,7 @@
 
     --primary-color: darkgreen;
     --accent-color1: black;
-    --accent-color2: orange;
+    --background-color: skyblue;
     --heading-font: "Times New Roman", Helvetica, serif;
     --body-font: Arial, Helvetica, sans-serif;
 
@@ -19,7 +19,7 @@ header {
     grid-template-columns: 1fr 2fr;
     align-items: center;
     place-items: center;
-    background-color: skyblue;
+    background-color: var(--background-color);
 }
 
 .navigation {
@@ -163,7 +163,7 @@ footer {
     grid-template-columns: 1fr 1fr;
     align-items: center;
     place-items: center;
-    background-color: skyblue;
+    background-color: var(--background-color);
 }
 
 footer img {
@@ -171,13 +171,3 @@ footer img {
     height: 68px;
 
 }
-
-/* .history {
-    display: grid;
-    grid-template-columns: 1fr 2fr;
-    align-items: center;
-    place-items: center;
-    background-color: skyblue;
-} */
-
-/* .history img {} */
