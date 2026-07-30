@@ -295,3 +295,12 @@ button {
 input[type="radio"] {
     vertical-align: middle;
 }
+
+.contact-h1 {
+    background: none;
+    opacity: 1;
+    position: static;
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+    text-align: center;
+}
