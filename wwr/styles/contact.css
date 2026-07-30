@@ -91,6 +91,7 @@ h2 {
 .map-and-form {
     display: flex;
     flex-direction: row;
+    padding: 10px;
 }
 
 iframe {
@@ -212,10 +213,6 @@ footer img {
 
 .checkbox-text label input {
     margin-right: 20px;
-}
-
-.map-and-form {
-    padding: 10px;
 }
 
 .forms {
