@@ -395,3 +395,96 @@ input[type="radio"] {
 .home-offerings figcaption {
     font-size: large;
 }
+
+.heading-section {
+    text-align: center;
+    font-weight: bold;
+}
+
+.trips {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    place-items: center;
+}
+
+.trips h2 {
+    padding: 5px;
+}
+
+.trip-table {
+    display: flex;
+    flex-direction: column;
+    width: 260px;
+    justify-content: center;
+
+}
+
+.trip-list {
+    background-color: rgba(135, 206, 235, 0.2);
+    border-radius: 2px;
+    padding: 20px;
+    font-weight: bold;
+    height: 200px;
+    border: 2px solid skyblue;
+}
+
+.trip-table img {
+    border-radius: 5px;
+    width: 260px;
+    border: 1px solid skyblue;
+}
+
+.trips-h2 {
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.equipment {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    max-height: 290px;
+}
+
+.equipment-pictures {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.equipment-pictures img {
+    width: 250px;
+    border: 2px solid skyblue;
+    border-radius: 5px;
+    margin: 10px;
+    box-shadow: 3px 5px rgb(0 0 0 / 0.2);
+}
+
+.equipment-description {
+    padding: 5px;
+    text-align: center;
+}
+
+.call-action a {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px;
+    background-color: navy;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.no-decoration {
+    padding-top: 4px;
+    list-style: none;
+    text-align: center;
+}
+
+.small-text {
+    font-size: 0.86rem;
+}
